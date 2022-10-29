@@ -1,0 +1,187 @@
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+    /* Menú */
+    .menu {
+        padding: 2rem;
+    }
+    
+    .menu__list {
+        display: none;
+    }
+    /*title*/
+    .title {
+        padding: 2rem;
+    }
+
+    .title__profile {
+        width: 146px;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .title__bio {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    /*sobre mi*/
+    .about{
+        padding: 2rem;
+    }
+
+    .about__paragraph {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: fit-content;
+    }
+
+    .about__title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    /*Skills*/
+    .skills {
+        padding: 2rem;
+    }
+
+    .skills__line{
+        flex-wrap: wrap;
+    }
+
+    .skills__box{
+        flex-grow: 1;
+    }    
+    
+    /*Hobbies*/
+    .hobbies {
+        padding: 2rem;
+    }
+
+    .hobbies__line{
+        flex-wrap: wrap;
+    }
+
+    .hobbies__box{
+        flex-grow: 1;
+    }
+
+    /*Formación Académica*/
+    .academic {
+        padding: 2rem;
+    }
+
+    .academic__courses__item__img {
+        flex-grow: 1;
+    }
+
+    .academic__courses__item__img img {
+        max-width: 84px;
+    }
+    
+    /*Experiencia Profesional*/
+.experience {
+    padding: 2rem;
+}
+
+    .experience__box {
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+
+    .experience__img {
+        width: 100%;
+    }
+
+    /*contato*/
+    .formcontato {
+        padding: 2rem;
+    }
+
+    .formcontato--esquerda {
+        display: none;
+    }
+
+    }
+    
+    /*Mobile*/
+    @media (max-width: 425px) {
+    
+    /*Menu*/
+    .menu__list__item__contato {
+        font-weight: 400;
+        font-size: 14px;
+        padding-left: 0;
+    }
+    /*Titulo*/
+    .title {
+        padding: 2rem 1rem;
+    }
+
+    .title__div{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .title__network__item {
+        margin: 0 .5rem;
+    }
+    /*Sección sobre mi*/
+    .about {
+        padding: 1rem;
+    }
+    /*Skills*/
+    .skills, .hobbies {
+        padding: 1rem;
+    }
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    .academic {
+        padding: 1rem;
+    }
+
+    .academic__courses {
+        flex-direction: column;
+    }
+
+    .academic__courses__list {
+        flex-wrap: wrap;
+    }
+
+    .academic__courses__box {
+        width: 100%;
+    }
+    /*Experiencia Profesional*/
+    .experience {
+        padding: 1rem;
+    }
+     /*Contacto*/
+    .formcontato {
+        padding: 1rem;
+    }
+    /*Footer*/
+    
+    }

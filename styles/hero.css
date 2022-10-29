@@ -1,0 +1,46 @@
+.title {
+    padding: 2rem 4rem;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__profile {
+    width: 40vw;
+}
+
+.title__bio{
+    color: var(--preto-100);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 3.8rem;
+    margin: 0;
+}
+
+.title__subsection {
+    color: var(--preto-100);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    
+}
+
+.title__network {
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.title__network__item {
+    margin: 0 1rem;
+}
+
+.title__network__item:nth-child(1) {
+    margin-left: 0;
+}

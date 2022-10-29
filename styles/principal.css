@@ -1,0 +1,33 @@
+
+.menu {
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.menu__header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    margin: 0 1rem;
+    width: 100%;
+}
+
+.menu__list {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.menu__list__item__contato {
+    font-weight: 700;
+    padding-left: 1rem;
+}

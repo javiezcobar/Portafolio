@@ -1,0 +1,44 @@
+.skills, .hobbies {
+    padding: 2rem 4rem;
+}
+
+.hobbies{
+    margin-bottom: 4rem;
+}
+
+.skills__title, .hobbies__title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--preto-100);
+}
+
+.skills__line, .hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.skills__box, .hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    width: 176px;
+    height: 174px;
+
+    background: var(--branco);
+}
+
+.skills__box ul, .hobbies__box ul{
+    padding: 0 1rem;
+}
+
+.skills__img, .hobbies__img {
+    padding: .5rem 0;
+}
